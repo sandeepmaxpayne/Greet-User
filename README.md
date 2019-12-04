@@ -1,2 +1,2 @@
 # Greet-User
-<h3>A chrome extension that will greet the user based on the time Morning, Afternoon or Evening based on the time.</h3>
+<h3>A chrome extension that will greet the user as Morning, Afternoon or Evening on clicking the chrome extension based on the current  time.</h3>
