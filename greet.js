@@ -9,16 +9,27 @@ if (hrs == 0){
     h = 00;
 }
 
-document.write(h);
-document.write(":")
-document.write(min);
-if (hrs >= 12){
-    document.write(" PM");
+//document.write(min.toString().fontcolor('green').fontsize("20"));
+var new_min;
+document.write("Current Time: ".fontsize("3").fontcolor('blue'));
+document.write(h.toString().fontsize("3").fontcolor("BlueViolet"));
+document.write(":".fontsize("3").fontcolor('FireBrick'))
+if (min.toString().length == 1){
+    new_min = "0" + min.toString();
+    document.write(new_min.toString().fontsize("3").fontcolor('BlueViolet'));
 }else{
-    document.write(" AM");
+    document.write(min.toString().fontsize("3").fontcolor('BlueViolet'));
+}
+
+if (hrs >= 12){
+    document.write(" PM".fontsize("3").fontcolor('DarkViolet'));
+}else{
+    document.write(" AM".fontsize("3").fontcolor('DeepPink'));
 }
 
 var greet;
+
+
 if (hrs <= 12){
     greet = 'Good Morning'.fontcolor('magenta');
 }
@@ -29,6 +40,8 @@ else if (hrs > 17 && hrs <= 24){
     greet = 'Good Evening'.fontcolor('purple');
 }
 document.getElementById('greetUser').outerHTML = greet;
-document.body.style.backgroundColor = "#02f085";
+document.body.style.backgroundColor = "GreenYellow";
+
+
 
 
