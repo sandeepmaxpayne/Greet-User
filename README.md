@@ -1,4 +1,4 @@
-# Greet-User
+# ____Greet-User____
 
 <h2>A <i>Chrome Extension</i> that greets the user with <i>Good Morning</i>, <i>Good Afternoon</i> or <i>Good Evening</i> in accordance with the time when the user opens a new tab</h2>
 
